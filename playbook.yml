@@ -1,5 +1,5 @@
 ---
-- hosts: ansible3-test
+- hosts: lampstalk:children
   tasks:
     - name: Install LAMP stack using Ansible
       become: yes
