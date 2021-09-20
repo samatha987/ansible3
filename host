@@ -4,7 +4,7 @@
 [ansible4-test]
 172.31.25.117 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/ssh_key
 
-[lampstalk:chlidren]
+[lampstalk:children]
 ansible3-test
 ansible4-test
 
