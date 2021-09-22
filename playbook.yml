@@ -1,14 +1,4 @@
 ---
-- hosts: lampstalk
-  tasks:
-    - name: Install LAMP stack using Ansible
-      become: yes
-      apt:
-        name: "{{ packages }}"
-        state: present
-      vars:
-        packages:
-           - apache2
-           - mysql-server
-           - php
-
+- hosts: samatha1-test
+  roles:
+   - lamp
